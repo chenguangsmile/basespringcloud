@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenguangsmile/basespringcloud.git
+          username: zhangbaohpu@163.com
+          password: 153514zb
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
