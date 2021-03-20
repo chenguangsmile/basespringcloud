@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/3/17 23:17
  **/
 @RestController
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/zipkin")
+public class ZipkinController {
 
     @Value("${server.port}")
     private int port;

@@ -7,8 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chenguangsmile/basespringcloud.git
-          username: zhangbaohpu@163.com
+          uri: https://gitee.com/zhangbaohpu/basespringcloud.git
+          search-paths: config
+          username: 18300602603
           password: 153514zb
       label: master
 eureka:
